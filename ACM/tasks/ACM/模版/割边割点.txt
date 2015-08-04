@@ -1,0 +1,17 @@
+int dclock, cut[LEN], low[LEN], dfn[LEN], nbri, bri[LEN][2];
+vector<int> Map[LEN];
+
+void dfs(int u, int fa){
+    int son = 0;
+    dfn[u] = low[u] = dclock ++;
+    for(int i = 0; i < Map[u].size(); i ++){
+        int v = Map[u][i];
+        if(dfn[v]<0){
+            dfs(v, u);
+            son ++;
+            low[u] = min(low[u], low[v]);
+            if((fa < 0 && son > 1) || (fa >= 0 && low[v] >= dfn[u])) cut[u] = 1; //点u为割点
+            //if(low[v] > dfn[u]) bri[nbri][0] = u; bri[nbri++][1] = v;   //边(u,v)是桥。
+        }else if(low[u] > low[v] && v != fa) low[u] = min(low[u], dfn[v]);
+    }
+}

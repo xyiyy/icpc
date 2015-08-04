@@ -1,0 +1,73 @@
+struct edge{
+	int to,cap,f,rev;
+	edge(int _to,int _cap,int _f,int _rev)
+	{
+		to=_to;
+		cap=_cap;
+		f=_f;
+		rev=_rev;
+	}
+};
+const int MAX_V=5020;
+vector<edge>G[MAX_V];
+int iter[MAX_V];
+int level[MAX_V];
+void add_edge(int from,int to,int cap)
+{
+	G[from].PB(edge(to,cap,0,G[to].size()));
+	G[to].PB(edge(from,0,0,G[from].size()-1));
+}
+void bfs(int s,int t)
+{
+	CLR(level,-1);
+	queue<int>q;
+	level[s]=0;
+	q.push(s);
+	while(!q.empty())
+	{
+		int u=q.front();
+		q.pop();
+		for(int i=0;i<G[u].size();i++)
+		{
+			edge &e=G[u][i];
+			if(e.cap>e.f&&level[e.to]<0)
+			{
+				level[e.to]=level[u]+1;
+				q.push(e.to);
+			}
+		}
+	}
+}
+int dfs(int v,int t,int f)
+{
+	if(v==t)return f;
+	for(int &i=iter[v];i<G[v].size();i++)
+	{
+		edge &e=G[v][i];
+		if(e.cap>e.f&&level[v]==level[e.to]-1)
+		{
+			int d=dfs(e.to,t,min(e.cap-e.f,f));
+			if(d>0)
+			{
+				e.f+=d;;
+				G[e.to][e.rev].f-=d;
+				return d;
+			}
+		}
+	}
+	return 0;
+}
+int Dinic(int s,int t)
+{
+	int flow=0;
+	for(;;)
+	{
+		bfs(s,t);
+		if(level[t]<0)return flow;
+		int f;
+		while((f=dfs(s,t,INF))>0)
+		{
+			flow+=f;
+		}
+	}
+}
