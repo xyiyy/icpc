@@ -1,55 +1,26 @@
 #include "../../../../library/lib.hpp"
 #include "../../../../library/algo/math/quick_power.hpp"
 vector<PII> vec[100010];
-int dp[100010];
+ll dp[1010][1010];
+const int mod = 1e9+7;
+ll C(int m, int n)
+{
+	if(m<1000&&n<1000&&dp[m][n]) return dp[m][n];
+	if(m==n||n==0)return 1;
+	if(n==1) return m;
+	ll ret = C(m-1,n-1) + C(m-1,n) % mod;
+	if(m<1000&&n<1000)dp[m][n]=ret;
+	return ret;
+}
 class shuoj1938 {
 public:
 	void solve(std::istream& in, std::ostream& out) {
 		int t;
-		init();
-		in >> t;
-		while (t--) {
-			int n, m, k;
-			in >> n >> m >> k;
-			clr(dp,0);
-			int tmp = min(m,n-m);
-			int p = max(m,n-m);
-			rep2(i,p+1,n){
-				rep(j,vec[i].size()){
-					int x = vec[i][j].first;
-					int y = vec[i][j].second;
-					dp[x]+=y;
-				}
-			}
-			rep2(i,2,tmp){
-				rep(j,vec[i].size()){
-					int x = vec[i][j].first;
-					int y = vec[i][j].second;
-					dp[x]-=y;
-				}
-			}
-			ll ans = 1;
-			rep2(i,2,100000){
-				ans = ans * quick_power(i,dp[i],k) %k;
-			}
-			out<<ans<<endl;
-
-		}
-	}
-	void init(){
-		rep2(i,2,100000){
-			int tmp = i;
-			for(int j=2;j*j<=tmp;j++){
-				if(tmp%j==0){
-					int num = 0;
-					while(tmp%j==0){
-						num++;
-						tmp/=j;
-					}
-					vec[i].pb(mp(j,num));
-				}
-			}
-			if(tmp!=1)vec[i].pb(mp(tmp,1));
+		in>>t;
+		while(t--){
+			int n,m;
+			in>>n>>m;
+			out<<C(n,m)<<endl;
 		}
 	}
 };
