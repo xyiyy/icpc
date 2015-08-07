@@ -1,8 +1,14 @@
+//
+// Created by xyiyy on 2015/8/7.
+//
+
+#ifndef JHELPER_EXAMPLE_PROJECT_LIBHDUC_HPP
+#define JHELPER_EXAMPLE_PROJECT_LIBHDUC_HPP
 //#####################
 //Author:fraud
 //Blog: http://www.cnblogs.com/fraud/
 //#####################
-//#pragma comment(linker, "/STACK:102400000,102400000")
+#pragma comment(linker, "/STACK:102400000,102400000")
 #include <iostream>
 #include <sstream>
 #include <ios>
@@ -40,6 +46,4 @@ typedef pair<int,int> PII;
 typedef vector<PII> VII;
 typedef vector<int> VI;
 
-int getTheAnswer() {
-    return 42;
-}
+#endif //JHELPER_EXAMPLE_PROJECT_LIBHDUC_HPP
