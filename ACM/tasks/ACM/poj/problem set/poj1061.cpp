@@ -7,10 +7,6 @@ public:
 			while(in>>x>>y>>m>>n>>l){//(m-n)*xx - yy * l = y-x;
 				ll xx,yy,d,c = x-y;
 				extgcd(n-m,l,d,xx,yy);
-				if(n<m){
-					d = -d;
-					c = -c;
-				}
 				l/=d;
 				if(c%d!=0)out<<"Impossible"<<endl;
 				else out<<((c/d*xx)%l + l)%l<<endl;
