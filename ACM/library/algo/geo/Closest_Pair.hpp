@@ -1,5 +1,5 @@
 //
-// Created by xyfra_000 on 2015/8/8.
+// Created by xyiyy on 2015/8/8.
 //
 
 #ifndef JHELPER_EXAMPLE_PROJECT_CLOSEST_PAIR_HPP
