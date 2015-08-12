@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.4)
-project(jhelper-example-project)
+project(icpc)
 
 add_executable(output output/main.cpp)
 add_executable(testrunner testrunner/main.cpp)
