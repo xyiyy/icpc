@@ -1,5 +1,5 @@
-#include "../../../../library/lib.hpp"
-#include "../../../../library/algo/math/quick_power.hpp"
+#include "../../xyiyy/lib.hpp"
+#include "../../xyiyy/math/quick_power.hpp"
 class hdu5363 {
 public:
 		void solve(std::istream& in, std::ostream& out) {

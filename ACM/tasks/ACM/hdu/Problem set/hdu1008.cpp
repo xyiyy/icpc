@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 int a[100010];
 class hdu1008 {
 public:

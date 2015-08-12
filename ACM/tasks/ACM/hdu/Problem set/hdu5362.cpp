@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 int dp[2010][2010];
 int dp2[2010];
 const int mod = 1000000007;

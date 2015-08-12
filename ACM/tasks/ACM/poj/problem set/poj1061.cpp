@@ -1,5 +1,5 @@
-#include "../../../../library/lib.hpp"
-#include "../../../../library/algo/math/inv.hpp"
+#include "../../xyiyy/lib.hpp"
+#include "../../xyiyy/math/inv.hpp"
 class poj1061 {
 public:
 		void solve(std::istream& in, std::ostream& out) {

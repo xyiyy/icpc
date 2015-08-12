@@ -1,5 +1,5 @@
-#include "../../../../library/libhduc++.hpp"
-#include "../../../../library/Scanner.hpp"
+#include "../../xyiyy/libhduc++.hpp"
+#include "../../xyiyy/Scanner.hpp"s
 #define  LLINF (1LL<<62)
 int pa[200010];
 ll dis[200010];

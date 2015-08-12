@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 #define gao() out<<"NO"<<endl
 vector<int>ans[11];
 int used[50];

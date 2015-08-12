@@ -1,5 +1,5 @@
-#include "../../../../library/lib.hpp"
-#include "../../../../library/algo/geo/Closest_Pair.hpp"
+#include "../../xyiyy/lib.hpp"
+#include "../../xyiyy/geo/Closest_Pair.hpp"
 class hdu1007 {
 public:
 		void solve(std::istream& in, std::ostream& out) {

@@ -1,7 +1,7 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 const int maxn = 4;
 const int MOD = 10007;
-#include "../../../../library/algo/math/Matrix.hpp"
+#include "../../xyiyy/math/Matrix.hpp"
 void Matrix::Unit() {
 	m[0][0] = 2;m[0][1] = 2;m[0][2] = 0;
 	m[1][0] = 1;m[1][1] = 2;m[1][2] = 1;

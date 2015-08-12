@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 #define MAXN 400010
 int str[MAXN],s[MAXN];//MAXN至少要开到原字符串的两倍
 int p[MAXN];//p中的最大值-1就是最长回文子串的长度
@@ -10,7 +10,7 @@ void Manacher(){
 	str[1]=INF-1;
 	for(int i=0;i<n;i++)str[2*i+2]=s[i],str[2*i+3]=INF-1;
 	n=n*2+2;
-	str[n]=0;
+	str[n]=INF-2;
 	int mx=0,id;
 	for(int i=1;i<n;i++){
 		if(mx>i)p[i]=min(p[2*id-i],mx-i);

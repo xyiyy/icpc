@@ -1,5 +1,5 @@
-#include "../../../../library/lib.hpp"
-#include "../../../../library/Scanner.hpp"
+#include "../../xyiyy/lib.hpp"
+#include "../../xyiyy/Scanner.hpp"
 ll a[100010];
 ll l [100010];
 ll r [100010];

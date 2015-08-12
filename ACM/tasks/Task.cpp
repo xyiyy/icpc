@@ -38,7 +38,7 @@ typedef pair<int,int> PII;
 typedef vector<PII> vii;
 typedef vector<int> vi;
 
-#include "../library/lib.hpp"
+#include "ACM/xyiyy/lib.hpp"
 
 class Task {
 public:

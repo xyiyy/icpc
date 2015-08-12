@@ -4,7 +4,7 @@ project(jhelper-example-project)
 add_executable(output output/main.cpp)
 add_executable(testrunner testrunner/main.cpp)
 file(GLOB TASKS "tasks/*.cpp")
-file(GLOB_RECURSE HEADERS "library/*.hpp" )
+file(GLOB_RECURSE HEADERS "tasks/ACM/xyiyy/*.hpp" )
 
 ADD_DEFINITIONS(-std=c++11)
 

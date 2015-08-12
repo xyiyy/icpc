@@ -1,4 +1,4 @@
-#include "../../../../library/libhdug++.hpp"
+#include "../../xyiyy/libhdug++.hpp"
 #define gao() out<<"NO"<<endl
 int a[100010];
 class hdu5353 {

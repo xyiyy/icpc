@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 typedef pair<PII,int> PIII;
 priority_queue<PIII,vector<PIII>,greater<PIII> >q;
 int f[100010],l[100010],r[100010];

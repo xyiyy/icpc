@@ -1,8 +1,8 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 int a[110][110];
 ll MOD;
 const int maxn = 61;
-#include "../../../../library/algo/math/Matrix.hpp"
+#include "../../xyiyy/math/Matrix.hpp"
 class poj3233 {
 public:
 		void solve(std::istream& in, std::ostream& out) {

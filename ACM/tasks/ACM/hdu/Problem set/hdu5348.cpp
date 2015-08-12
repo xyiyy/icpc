@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 const int MAXN = 800010;
 int head[MAXN];
 int Next[MAXN],To[MAXN];

@@ -1,5 +1,5 @@
-#include "../../../../library/lib.hpp"
-#include "../../../../library/algo/math/single_Eular.hpp"
+#include "../../xyiyy/lib.hpp"
+#include "../../xyiyy/math/single_Eular.hpp"
 class poj2407 {
 public:
 		void solve(std::istream& in, std::ostream& out) {

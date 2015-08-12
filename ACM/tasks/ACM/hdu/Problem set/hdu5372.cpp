@@ -1,4 +1,4 @@
-#include "../../../../library/lib.hpp"
+#include "../../xyiyy/lib.hpp"
 const int MAXN = 400010;
 int bit0[MAXN+1],bit1[MAXN+1];
 int a[MAXN],l[MAXN],r[MAXN];
