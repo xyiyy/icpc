@@ -5,7 +5,7 @@
 #ifndef JHELPER_EXAMPLE_PROJECT_P_HPP
 #define JHELPER_EXAMPLE_PROJECT_P_HPP
 
-const double EPS = 1e-9;
+const double EPS = 1e-10;
 
 int sig(double x){
     if(fabs(x)<EPS)return 0;
@@ -168,6 +168,14 @@ bool crsCC(P c1,double r1,P c2,double r2){
     P s2 = s1 + ((p3 - p2).rot90());
     return isLL(q1,q2,s1,s2);
 }*/
+
+//求两圆的极角 以p为中心
+double polarangle(P p,P q){
+    return atan2(q.y - p.y, q.x - p.x);
+}
+
+
+
 bool cmp_x(const P& p, const P& q){
     if(p.x != q.x) return p.x < q.x;
     return p.y < q.y;
