@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/11.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_MANACHER_HPP
-#define JHELPER_EXAMPLE_PROJECT_MANACHER_HPP
+#ifndef ICPC_MANACHER_HPP
+#define ICPC_MANACHER_HPP
 
 char str[MAXN],s[MAXN];//MAXN至少要开到原字符串的两倍
 int p[MAXN];//p中的最大值-1就是最长回文子串的长度
@@ -23,4 +23,4 @@ void Manacher(){
     }
 };
 
-#endif //JHELPER_EXAMPLE_PROJECT_MANACHER_HPP
+#endif //ICPC_MANACHER_HPP

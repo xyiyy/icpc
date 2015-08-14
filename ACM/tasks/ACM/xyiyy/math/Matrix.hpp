@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/10.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_MATRIX_HPP
-#define JHELPER_EXAMPLE_PROJECT_MATRIX_HPP
+#ifndef ICPC_MATRIX_HPP
+#define ICPC_MATRIX_HPP
 class Matrix{
 public:
     Matrix(int _r,int _c):r(_r),c(_c){}
@@ -54,4 +54,4 @@ Matrix Matrix::power(ll n){
     return *this;
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_MATRIX_HPP
+#endif //ICPC_MATRIX_HPP

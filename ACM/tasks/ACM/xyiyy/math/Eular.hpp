@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/10.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_EULAR_HPP
-#define JHELPER_EXAMPLE_PROJECT_EULAR_HPP
+#ifndef ICPC_EULAR_HPP
+#define ICPC_EULAR_HPP
 
 const  int MAXN = 1000010;
 int vis[MAXN],prime[MAXN],n_prime,phi[MAXN];
@@ -26,4 +26,4 @@ void Eular(){
     }
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_EULAR_HPP
+#endif //ICPC_EULAR_HPP

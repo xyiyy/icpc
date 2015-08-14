@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/11.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_BIT_HPP
-#define JHELPER_EXAMPLE_PROJECT_BIT_HPP
+#ifndef ICPC_BI_HPP
+#define ICPC_BIT_HPP
 struct BIT{
     int sz;
     ll* bit;
@@ -109,4 +109,4 @@ struct BIT2{
     }
 };
 
-#endif //JHELPER_EXAMPLE_PROJECT_BIT_HPP
+#endif //ICPC_BIT_HPP

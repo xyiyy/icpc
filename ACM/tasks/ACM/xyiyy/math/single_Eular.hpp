@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/10.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_SINGLE_EULAR_HPP
-#define JHELPER_EXAMPLE_PROJECT_SINGLE_EULAR_HPP
+#ifndef ICPC_SINGLE_EULAR_HPP
+#define ICPC_SINGLE_EULAR_HPP
 
 ll Eular(ll n){
     ll ret = n;
@@ -17,4 +17,4 @@ ll Eular(ll n){
     return ret;
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_SINGLE_EULAR_HPP
+#endif //ICPC_SINGLE_EULAR_HPP

@@ -36,6 +36,7 @@ using namespace std;
 #define ALL(X) (X).begin(),(X).end()
 #define PQ std::priority_queue
 typedef long long ll;
+typedef unsigned long long ull;
 typedef pair<int,int> PII;
 typedef vector<PII> VII;
 typedef vector<int> VI;

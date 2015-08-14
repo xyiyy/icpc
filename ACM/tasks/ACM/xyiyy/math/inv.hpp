@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/5.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_INV_HPP
-#define JHELPER_EXAMPLE_PROJECT_INV_HPP
+#ifndef ICPC_INV_HPP
+#define ICPC_INV_HPP
 typedef  long long ll;
 void extgcd(ll a,ll b,ll &d,ll &x,ll &y){
     if(!b){d = a;x=1;y=0;}
@@ -17,4 +17,4 @@ ll inv(ll a,ll mod){
 }
 
 
-#endif //JHELPER_EXAMPLE_PROJECT_INV_HPP
+#endif //ICPC_INV_HPP

@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/8.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_UNIONFINDSET_HPP
-#define JHELPER_EXAMPLE_PROJECT_UNIONFINDSET_HPP
+#ifndef ICPC_UNIONFINDSET_HPP
+#define ICPC_UNIONFINDSET_HPP
 
 int pa[MAXN],ra[MAXN];
 void init(int n){
@@ -27,4 +27,4 @@ bool same(int x,int y){
     return find(x)==find(y);
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_UNIONFINDSET_HPP
+#endif //ICPC_UNIONFINDSET_HPP

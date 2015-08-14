@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/8.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_CLOSEST_PAIR_HPP
-#define JHELPER_EXAMPLE_PROJECT_CLOSEST_PAIR_HPP
+#ifndef ICPC_CLOSEST_PAIR_HPP
+#define ICPC_CLOSEST_PAIR_HPP
 const double dINF = 1e20;
 const int MAXN = 100010;
 const  double eps = 1e-8;
@@ -49,4 +49,4 @@ double Closest_Pair(int left,int right){
     return d;
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_CLOSEST_PAIR_HPP
+#endif //ICPC_CLOSEST_PAIR_HPP

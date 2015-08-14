@@ -5,8 +5,8 @@
 //Author:fraud
 //Blog: http://www.cnblogs.com/fraud/
 //#####################
-#ifndef JHELPER_EXAMPLE_PROJECT_LIBG_HPP
-#define JHELPER_EXAMPLE_PROJECT_LIBG_HPP
+#ifndef ICPC_LIBG_HPP
+#define ICPC_LIBG_HPP
 #include <bits/stdc++.h>
 #include <ext/hash_map>
 #include <ext/hash_set>
@@ -39,4 +39,4 @@ typedef tree<int, int, greater<int>, rb_tree_tag, tree_order_statistics_node_upd
 #define Y second
 #define lson(X) ((X)<<1)
 #define rson(X) ((X)<<1|1)
-#endif //JHELPER_EXAMPLE_PROJECT_LIBG_HPP
+#endif //ICPC_LIBG_HPP

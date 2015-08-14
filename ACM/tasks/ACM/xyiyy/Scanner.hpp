@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/7.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_SCANNER_HPP
-#define JHELPER_EXAMPLE_PROJECT_SCANNER_HPP
+#ifndef ICPC_SCANNER_HPP
+#define ICPC_SCANNER_HPP
 
 template <class T> inline bool Scan(T &n){
     T x = 0,f = 1;
@@ -28,4 +28,4 @@ template <class T> inline void Out(T n){
     if(!len)data[len++] = 0;
     while(len--)putchar(data[len]+48);
 }
-#endif //JHELPER_EXAMPLE_PROJECT_SCANNER_HPP
+#endif //ICPC_SCANNER_HPP

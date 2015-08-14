@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/5.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_GEULAR_HPP
-#define JHELPER_EXAMPLE_PROJECT_GEULAR_HPP
+#ifndef ICPC_GEULAR_HPP
+#define ICPC_GEULAR_HPP
 const int MAXN = 200010;
 int head[MAXN];
 int Next[MAXN],To[MAXN];
@@ -25,4 +25,4 @@ void euler(int u){
     }
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_GEULAR_HPP
+#endif //ICPC_GEULAR_HPP

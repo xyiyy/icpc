@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/5.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_TREAP_HPP
-#define JHELPER_EXAMPLE_PROJECT_TREAP_HPP
+#ifndef ICPC_TREAP_HPP
+#define ICPC_TREAP_HPP
 int key[MAXN],size[MAXN],lson[MAXN],rson[MAXN];
 int sum[MAXN],p[MAXN],del[MAXN];
 int tot=0,tot1=0;
@@ -62,4 +62,4 @@ int merge(int t1,int t2){
     return change(t2,merge(t1,lson[t2]),rson[t2]);
 }
 
-#endif //JHELPER_EXAMPLE_PROJECT_TREAP_HPP
+#endif //ICPC_TREAP_HPP

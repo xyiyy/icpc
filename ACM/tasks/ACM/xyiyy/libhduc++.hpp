@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/7.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_LIBHDUC_HPP
-#define JHELPER_EXAMPLE_PROJECT_LIBHDUC_HPP
+#ifndef ICPC_LIBHDUC_HPP
+#define ICPC_LIBHDUC_HPP
 //#####################
 //Author:fraud
 //Blog: http://www.cnblogs.com/fraud/
@@ -42,8 +42,9 @@ using namespace std;
 #define ALL(X) (X).begin(),(X).end()
 #define PQ std::priority_queue
 typedef long long ll;
+typedef  unsigned long long ull;
 typedef pair<int,int> PII;
 typedef vector<PII> VII;
 typedef vector<int> VI;
 
-#endif //JHELPER_EXAMPLE_PROJECT_LIBHDUC_HPP
+#endif //ICPC_LIBHDUC_HPP

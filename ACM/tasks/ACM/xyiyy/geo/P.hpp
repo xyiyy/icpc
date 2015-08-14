@@ -2,8 +2,8 @@
 // Created by xyiyy on 2015/8/10.
 //
 
-#ifndef JHELPER_EXAMPLE_PROJECT_P_HPP
-#define JHELPER_EXAMPLE_PROJECT_P_HPP
+#ifndef ICPC_P_HPP
+#define ICPC_P_HPP
 
 const double EPS = 1e-10;
 
@@ -217,4 +217,4 @@ double convexDiameter(){
 }
 
 
-#endif //JHELPER_EXAMPLE_PROJECT_P_HPP
+#endif //ICPC_P_HPP
