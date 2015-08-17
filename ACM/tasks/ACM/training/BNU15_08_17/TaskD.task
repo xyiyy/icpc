@@ -1,0 +1,19 @@
+5 TaskD
+5 TaskD
+41 tasks/ACM/training/BNU15_08_17/TaskD.task
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6 SINGLE
+1
+0
+67 2
+a*2-(a+c)+((a+c+e)*2)
+3*a+c+(2*e)
+(a-b)*(a-b)
+(a*a)-(2*a*b)-(b*b)
+7 YES
+NO
+
+1

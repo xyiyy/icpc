@@ -23,7 +23,7 @@ struct BIT{
     }
     void add(int i, ll x)
     {
-        while(i<=sz)
+        while(i <= sz)
         {
             bit[i]+=x;
             i+=i&-i;
@@ -32,33 +32,12 @@ struct BIT{
     ll query(int i)
     {
         ll sum=0;
-        while(i>0)
+        while(i > 0)
         {
             sum+=bit[i];
             i-=i&-i;
         }
         return sum;
-    }
-    int kth(int k)
-    {
-        int r = 0, h = H;
-        while(h>>=1)
-        {
-            r += h;
-            if(r > sz || bit[r] >= k)
-                r -= h;
-            else
-                k -= bit[r];
-        }
-        /*
-        int i = r+1;
-        while(i<=sz)
-        {
-            bit[i]--;
-            i += i&-i;
-        }
-        */
-        return r;
     }
 };
 struct BIT2{
@@ -69,14 +48,14 @@ struct BIT2{
     {
         rep(i,sz+1) bit0[i] = bit1[i] = 0;
     }
-    BIT(int size)
+    BIT2(int size)
     {
         sz=size>0?size:0;
+        bit0 = new ll[sz+1];
         bit1 = new ll[sz+1];
-        bit2 = new ll[sz+1];
         this->init(); // initialize
     }
-    ~BIT()
+    ~BIT2()
     {
         delete[] bit0;
         delete[] bit1;

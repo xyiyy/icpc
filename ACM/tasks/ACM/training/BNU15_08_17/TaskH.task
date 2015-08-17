@@ -1,0 +1,30 @@
+5 TaskH
+5 TaskH
+41 tasks/ACM/training/BNU15_08_17/TaskH.task
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6 SINGLE
+1
+0
+98 2
+4 1 4 2.000 1.000
+0 0
+0 4
+4 0
+4 4
+9 1 4 2.000 3.000
+0 7
+-6 2
+-3 3
+6 2
+-6 -3
+3 -3
+6 -3
+-3 -7
+0 -7
+13 Impossible
+8
+
+1

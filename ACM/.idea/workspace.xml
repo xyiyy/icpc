@@ -43,25 +43,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e173ed55-e541-424a-82e1-b5da979c74d7" name="Default" comment="treap">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashbsgs.hpp" />
-      <change type="DELETED" beforePath="D:\xyiyy\icpc\ACM\tasks\ACM\训练\2015buaa_summer_training\practice1\test" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/SBT.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskA.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskA.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskB.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskB.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskD.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskD.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskE.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskE.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskG.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskG.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskH.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskH.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/UVALive/uvaLive5871.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/UVALive/uvaLive5871.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/uvaLive5871.xml" />
+      <change type="DELETED" beforePath="D:\xyiyy\icpc\ACM\.idea\runConfigurations\A___Elections.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xyiyy\icpc\ACM\.idea\runConfigurations\B___Simple_Game.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xyiyy\icpc\ACM\.idea\runConfigurations\C___Replacement.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xyiyy\icpc\ACM\.idea\runConfigurations\D___Tree_Requests.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xyiyy\icpc\ACM\.idea\runConfigurations\E___Pig_and_Palindromes.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/BIT.hpp" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/BIT.hpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/JHelper.xml" afterPath="$PROJECT_DIR$/.idea/JHelper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/TaskA.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TaskA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/TaskD.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TaskD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/TaskE.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TaskE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/TaskG.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TaskG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/TaskH.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TaskH.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/main.cpp" afterPath="$PROJECT_DIR$/output/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testrunner/main.cpp" afterPath="$PROJECT_DIR$/testrunner/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\xyiyy\icpc\ACM\.idea\runConfigurations\TaskI.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TaskB.xml" />
     </list>
-    <list id="d2340355-0329-49df-bb56-3330c579be28" name="Failed commit: Default" comment="CRT, Baby-Step-Giant-Step and extend bsgs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/math/BabyStepGiantStep.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/math/CRT.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/math/extBabyStepGiantStep.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashextbsgs.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417bsgs.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417bsgs.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/poj2417bsgs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417extbsgs.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417extbsgs.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/poj2417extbsgs.xml" />
-    </list>
+    <list id="d2340355-0329-49df-bb56-3330c579be28" name="Failed commit: Default" comment="CRT, Baby-Step-Giant-Step and extend bsgs" />
     <ignored path="jhelper-example-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,26 +96,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaskG.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_07_31/TaskG.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hashextbsgs.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashextbsgs.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,43 +116,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extBabyStepGiantStep.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/extBabyStepGiantStep.hpp">
+      <file leaf-file-name="TaskA.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskA.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poj2417extbsgs.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417extbsgs.cpp">
+      <file leaf-file-name="TaskG.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskG.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hashbsgs.hpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashbsgs.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6835443">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inv.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/inv.hpp">
+      <file leaf-file-name="TaskH.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskH.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskB.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskB.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uvaLive5871.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/UVALive/uvaLive5871.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SBT.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/DS/SBT.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.1538463">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskE.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskE.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskD.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskD.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -184,16 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/Graph/adjList_array.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/BIT.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/treap.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/UnionFindSet.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/geo/Closest_Pair.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/geo/P.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/Graph/GEular.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/Eular.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/inv.hpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/Matrix.hpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/quick_power.hpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/simple_Eular.hpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/single_Eular.hpp" />
@@ -230,11 +253,21 @@
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/Hashbsgs.hpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/extBabyStepGiantStep.hpp" />
         <option value="$PROJECT_DIR$/output/main.cpp" />
-        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashbsgs.hpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417extbsgs.cpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashextbsgs.hpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417bsgs.cpp" />
         <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/BabyStepGiantStep.hpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashbsgs.hpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskA.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskG.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskH.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskI.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskE.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskD.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/BIT.hpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskB.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/UVALive/uvaLive5871.cpp" />
+        <option value="$PROJECT_DIR$/tasks/ACM/xyiyy/DS/SBT.hpp" />
       </list>
     </option>
   </component>
@@ -372,28 +405,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="模版" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ACM" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ACM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ACM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="xyiyy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -420,7 +431,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
+              <option name="myItemId" value="DS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVALive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,7 +517,7 @@
       <recent name="D:\xyiyy\icpc\ACM\library" />
     </key>
   </component>
-  <component name="RunManager" selected="Task.poj2417extbsgs">
+  <component name="RunManager" selected="Task.uvaLive5871">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="jhelper_example_project" TARGET_NAME="jhelper_example_project" CONFIG_NAME="Debug">
       <envs />
       <method />
@@ -476,7 +531,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/TiaoZhan/3.6/.task">
+    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/poj/problem set/.task">
       <method />
     </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -495,7 +550,22 @@
       <envs />
       <method />
     </configuration>
-    <list size="25">
+    <configuration default="false" name="" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/poj/problem set/.task">
+      <method />
+    </configuration>
+    <configuration default="false" name="" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/poj/problem set/.task">
+      <method />
+    </configuration>
+    <configuration default="false" name="" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/poj/problem set/.task">
+      <method />
+    </configuration>
+    <configuration default="false" name="" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/poj/problem set/.task">
+      <method />
+    </configuration>
+    <configuration default="false" name="" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/ACM/poj/problem set/.task">
+      <method />
+    </configuration>
+    <list size="26">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.test" />
       <item index="2" class="java.lang.String" itemvalue="Application.output" />
@@ -509,18 +579,19 @@
       <item index="10" class="java.lang.String" itemvalue="Task.TaskE" />
       <item index="11" class="java.lang.String" itemvalue="Task.TaskC" />
       <item index="12" class="java.lang.String" itemvalue="Task.TaskH" />
-      <item index="13" class="java.lang.String" itemvalue="Task.A - Elections" />
-      <item index="14" class="java.lang.String" itemvalue="Task.B - Simple Game" />
-      <item index="15" class="java.lang.String" itemvalue="Task.C - Replacement" />
-      <item index="16" class="java.lang.String" itemvalue="Task.D - Tree Requests" />
-      <item index="17" class="java.lang.String" itemvalue="Task.E - Pig and Palindromes" />
+      <item index="13" class="java.lang.String" itemvalue="Task." />
+      <item index="14" class="java.lang.String" itemvalue="Task." />
+      <item index="15" class="java.lang.String" itemvalue="Task." />
+      <item index="16" class="java.lang.String" itemvalue="Task." />
+      <item index="17" class="java.lang.String" itemvalue="Task." />
       <item index="18" class="java.lang.String" itemvalue="Task.TaskF" />
-      <item index="19" class="java.lang.String" itemvalue="Task.TaskI" />
-      <item index="20" class="java.lang.String" itemvalue="Task.TaskJ" />
-      <item index="21" class="java.lang.String" itemvalue="Task.hdu5391" />
-      <item index="22" class="java.lang.String" itemvalue="Task.hdu5392" />
-      <item index="23" class="java.lang.String" itemvalue="Task.poj2417bsgs" />
-      <item index="24" class="java.lang.String" itemvalue="Task.poj2417extbsgs" />
+      <item index="19" class="java.lang.String" itemvalue="Task.TaskJ" />
+      <item index="20" class="java.lang.String" itemvalue="Task.hdu5391" />
+      <item index="21" class="java.lang.String" itemvalue="Task.hdu5392" />
+      <item index="22" class="java.lang.String" itemvalue="Task.poj2417bsgs" />
+      <item index="23" class="java.lang.String" itemvalue="Task.poj2417extbsgs" />
+      <item index="24" class="java.lang.String" itemvalue="Task.TaskB" />
+      <item index="25" class="java.lang.String" itemvalue="Task.uvaLive5871" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -684,7 +755,13 @@
       <option name="project" value="LOCAL" />
       <updated>1439654293793</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Baby-Step-Giant-Step's hash version">
+      <created>1439737798129</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1439737798129</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -698,19 +775,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.49276236" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252595" sideWeight="0.30940893" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32641292" sideWeight="0.35162848" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32641292" sideWeight="0.6483715" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.49034983" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33679354" sideWeight="0.1296743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32410613" sideWeight="0.30940893" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252595" sideWeight="0.35162848" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32641292" sideWeight="0.6483715" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.49034983" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33679354" sideWeight="0.1296743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39907727" sideWeight="0.46441495" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -719,6 +795,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -778,118 +855,20 @@
     <MESSAGE value="codeforces 316 div2" />
     <MESSAGE value="bc #51 1000 and 1001  and Scanner update" />
     <MESSAGE value="CRT, Baby-Step-Giant-Step and extend bsgs" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRT, Baby-Step-Giant-Step and extend bsgs" />
+    <MESSAGE value="Baby-Step-Giant-Step's hash version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baby-Step-Giant-Step's hash version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/Graph/TreeDiameter.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/Graph/valued_adjList_array.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/Eular.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/Matrix.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/quick_power.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/simple_Eular.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/single_Eular.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/str/Manacher.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/lib.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="e#157#176#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/libhduc++.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/libhdug++.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_14/TaskD.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_14/TaskC.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26923078">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46153846">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3846154">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03846154">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3846154">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.56">
           <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,10 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <marker date="1439614209004" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439614209004" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,9 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,10 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <marker date="1439616049931" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1439616049931" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,9 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15035799">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.050119333">
           <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.050119333">
           <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,9 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,9 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7176259">
           <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,9 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4532374">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,14 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashextbsgs.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1171,19 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42307693">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417extbsgs.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,10 +1130,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/poj/problem set/poj2417extbsgs.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/math/hashbsgs.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6835443">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskA.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskG.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/模版/fraud/网络流/dinic.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testrunner/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/模版/fraud/网络流/挑战_最大匹配.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67216116">
+          <caret line="43" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/模版/Template/线段树&amp;树状数组/BIT/bit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.621185">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/DS/BIT.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46153846">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskH.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskB.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskE.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/training/BNU15_08_17/TaskD.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/UVALive/uvaLive5871.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/ACM/xyiyy/DS/SBT.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1538463">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
         </state>
       </provider>
