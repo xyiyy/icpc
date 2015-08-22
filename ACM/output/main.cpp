@@ -54,76 +54,33 @@ typedef vector<int> VI;
 int getTheAnswer() {
     return 42;
 }
-//
-// Created by xyiyy on 2015/8/16.
-//
 
-#ifndef ICPC_BABYSTEPGIANTSTEP_HPP
-#define ICPC_BABYSTEPGIANTSTEP_HPP
+int a[1010];
 
-//O((m+n/m)logm)
-//当m和n/m接近时为O(sqrt(n)logn)
-//a^x = b (mod n)
-//n为素数，无解返回-1
-//
-// Created by xyiyy on 2015/8/5.
-//
-
-#ifndef ICPC_INV_HPP
-#define ICPC_INV_HPP
-typedef long long ll;
-
-void extgcd(ll a, ll b, ll &d, ll &x, ll &y) {
-    if (!b) {
-        d = a;
-        x = 1;
-        y = 0;
-    }
-    else {
-        extgcd(b, a % b, d, y, x);
-        y -= x * (a / b);
-    }
-}
-
-ll inv(ll a, ll mod) {
-    ll x, y, d;
-    extgcd(a, mod, d, x, y);
-    return d == 1 ? (x % mod + mod) % mod : -1;
-}
-
-
-#endif //ICPC_INV_HPP
-
-ll mul_mod(ll a, ll b, ll mod) {
-    return a * b % mod;
-}
-
-int bsgs(int a, int b, int n) {
-    int m, v, e = 1, i;
-    m = (int) sqrt(n + 0.5);
-    map<int, int> x;
-    rep(i, m) {
-        if (!x.count(e))x[e] = i;
-        e = mul_mod(e, a, n);
-    }
-    v = inv(e, n);
-    rep(i, m) {
-        if (x.count(b))return i * m + x[b];
-        b = mul_mod(b, v, n);
-    }
-    return -1;
-}
-
-#endif //ICPC_BABYSTEPGIANTSTEP_HPP
-
-class poj2417bsgs {
+class TaskF {
 public:
     void solve(std::istream &in, std::ostream &out) {
-        int n, a, b;
-        while (in >> n >> a >> b) {
-            int ans = bsgs(a, b, n);
-            if (ans == -1)out << "no solution" << endl;
-            else out << ans << endl;
+        int n, k;
+        while (in >> n >> k) {
+            k--;
+            rep(i, n) {
+                in >> a[i];
+            }
+            int f = 0;
+            if (!k) {
+                out << "Alice" << endl;
+                continue;
+            } else if (k == 1) {
+                a[0] -= (n & 1);
+            }
+            if (n & 1) {
+                f = a[0];
+                for (int i = 1; i < n; i += 2)f ^= a[i + 1] - a[i] - 1;
+            } else {
+                for (int i = 0; i < n; i += 2)f ^= a[i + 1] - a[i] - 1;
+            }
+            if (f)out << "Alice" << endl;
+            else out << "Bob" << endl;
         }
     }
 };
@@ -131,7 +88,7 @@ public:
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(0);
-    poj2417bsgs solver;
+    TaskF solver;
     std::istream &in(std::cin);
     std::ostream &out(std::cout);
     solver.solve(in, out);

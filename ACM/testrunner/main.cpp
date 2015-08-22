@@ -1,4 +1,4 @@
-#include "D:/xyiyy/icpc/ACM/tasks/ACM/poj/problem set/poj2417bsgs.cpp"
+#include "D:/xyiyy/icpc/ACM/tasks/ACM/training/BNU15_08_21/TaskF.cpp"
 
 #include <iostream>
 #include <fstream>
@@ -27,7 +27,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-		{"5 2 1\n5 2 2\n5 2 3\n5 2 4\n5 3 1\n5 3 2\n5 3 3\n5 3 4\n5 4 1\n5 4 2\n5 4 3\n5 4 4\n12345701 2 1111111\n1111111121 65537 1111111111", "0\n1\n3\n2\n0\n3\n1\n2\n0\nno solution\nno solution\n1\n9584351\n462803587", true},
+		{"3 3\n1 2 4\n2 1\n100 200", "Bob\nAlice", true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -38,7 +38,7 @@ int main() {
 		if (test.active) {
 			std::stringstream in(test.input);
 			std::ostringstream out;
-			poj2417bsgs solver;
+			TaskF solver;
 			solver.solve(in, out);
 			std::cout << "Actual output: \n" << out.str() << std::endl;
 			bool result = jhelper::check(test.output, out.str());
