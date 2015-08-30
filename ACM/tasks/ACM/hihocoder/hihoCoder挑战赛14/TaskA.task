@@ -1,0 +1,17 @@
+5 TaskA
+5 TaskA
+51 tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskA.task
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6 SINGLE
+1
+0
+25 4
+X = 1
+X = 2
+X = 3
+X > 0
+1 2
+1
