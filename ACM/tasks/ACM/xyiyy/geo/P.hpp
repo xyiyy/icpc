@@ -40,8 +40,16 @@ public:
         return P(x/d,y/d);
     }
 
+    double Dot(P p) {
+        return x * p.x + y * p.y;
+    }
+
     double dot(P p){
         return add(x*p.x,y*p.y);
+    }
+
+    double Det(P p) {
+        return x * p.y - y * p.x;
     }
 
     double  det(P p){
