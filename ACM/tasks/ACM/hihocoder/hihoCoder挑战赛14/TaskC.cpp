@@ -23,14 +23,12 @@ public:
                         rep(k, n) {
                             if (i == k || j == k)continue;
                             if (sig(sum) == 0)break;
-                            int l = 0, r = 0;
+                            int num = 0;
                             rep(l3, 2) {
-                                if (p2.Det(p[k][l3] - p1) > 0)l++;
-                                else r++;
+                                if (p2.Det(p[k][l3] - p1) > 0);
+                                else num++;
                             }
-                            if (l == 2)sum = 0;
-                            else if (l == 1)sum *= 0.5;
-                            //else sum = sum;
+                            sum *= num / 2.0;
                         }
                         ans += sum;
                     }
@@ -38,4 +36,4 @@ public:
             }
         out << fixed << setprecision(10) << fabs(ans) << endl;
     }
-};
+}
