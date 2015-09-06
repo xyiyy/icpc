@@ -1,5 +1,4 @@
 #include "../../xyiyy/lib.hpp"
-
 int x[100010], y[100010], p[100010];
 int tot = 0;
 

@@ -133,7 +133,7 @@ void splay(int x,int goal)
 		//	push_down(pre[x]);
 			rotate(x,ch[pre[x]][0]==x);
 		}
-		else 
+		else
 		{
 			int y=pre[x];
 		//	push_down(pre[y]);
@@ -144,7 +144,7 @@ void splay(int x,int goal)
 				rotate(x,!d);
 				rotate(x,d);
 			}
-			else //一 
+			else //一
 			{
 				rotate(y,d);
 				rotate(x,d);
@@ -164,7 +164,7 @@ void rotateto(int k,int goal)//把第k位转到goal下面
 		{
 			x=ch[x][0];
 		}
-		else 
+		else
 		{
 			k-=(size[ch[x][0]]+1);
 			x=ch[x][1];
@@ -180,7 +180,7 @@ int get_kth(int x,int k)
 	if(d==k)return x;
 	else if(k<d)
 		return get_kth(ch[x][0],k);
-	else 
+	else
 		return get_kth(ch[x][1],k-d);
 }
 int get_min(int x)
@@ -189,11 +189,11 @@ int get_min(int x)
 	while(ch[x][0])
 	{
 		x=ch[x][0];
-		push_down(x);//一定要下传标记 TAT查了好久 
+		push_down(x);//一定要下传标记 TAT查了好久
 	}
 	return x;
 }
-	
+
 void erase(int x)
 {
 	if(!x)return ;
@@ -203,7 +203,7 @@ void erase(int x)
 }
 void insert(int pos,int tot)
 {
-	splay(get_kth(root,pos+1),0);//是插在pos个的后面所以要找pos个，也就是pos+1  TAT哭瞎  
+	splay(get_kth(root, pos + 1), 0);
 	splay(get_min(ch[root][1]),root);
 	build(Key_value,1,tot,ch[root][1]);
 	push_up(ch[root][1]);
@@ -248,8 +248,7 @@ int get_maxsum()
 	splay(get_kth(root,pos+tot+1),root);
 	return mx[Key_value];
 }
-void Treavel(int x)
-{	
+void Treavel(int x) {
 	if(x)
 	{
 		Treavel(ch[x][0]);
@@ -262,7 +261,7 @@ void debug()
 	printf("root%d\n",root);
 	Treavel(root);
 }
-	
+
 int main()
 {
 	//ios::sync_with_stdio(false);
