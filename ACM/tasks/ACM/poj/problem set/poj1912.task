@@ -1,0 +1,23 @@
+7 poj1912
+7 poj1912
+38 tasks/ACM/poj/problem set/poj1912.task
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6 SINGLE
+1
+0
+74 4
+0.0 0
+6.00 -0.001
+3.125 4.747
+4.747 0.47
+5 3 7 0
+4 -4.7 7 4.7
+4 47 4 94
+
+12 GOOD
+BAD
+BAD
+1
