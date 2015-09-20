@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ffcf51e-39ed-449f-981e-f7867ff76648" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACM/.idea/.name" afterPath="$PROJECT_DIR$/ACM/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACM/tasks/ACM/模版/fraud/sa_dc3.cpp" afterPath="$PROJECT_DIR$/ACM/tasks/ACM/模版/fraud/sa_dc3.cpp" />
+    </list>
+    <ignored path="icpc.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="icpc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.060606062">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ACM/.idea/.name" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/JHelper.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/jhelper-example-project.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/TaskA.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/TaskB.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/TaskC.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/output/main.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/geo/P.hpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/杂/SHU 平衡二叉树/D_again.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/testrunner/main.cpp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/Chef_and_Graph_Queries.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/poj3168.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/poj3293.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1948.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1950.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1951.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1952.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2482.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2482.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3168.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3168.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3293.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3293.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/codechef/Chef_and_Graph_Queries.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/codechef/Chef_and_Graph_Queries.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1001.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1002.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1003.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1003spj .cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1004.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1005.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1006.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1007.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1008.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1009.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1010.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1011.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskA.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskA.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskB.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskB.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskC.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskC.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1113.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1113.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1912.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1912.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1948.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1948.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1950.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1950.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1951.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1951.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1952.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1952.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1954.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1954.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1955.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1955.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1957.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1957.task</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/training/2015buaa_summer_training/practice1/test/.gitattributes</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/training/2015buaa_summer_training/practice1/test/.gitignore</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/8/标程8/标程/1009_spj.cpp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1869.c</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1876.in</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1876.out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1880.in</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1880.out</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1938.in</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1938.out</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Task.a">
+    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/.task">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Task.a" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ffcf51e-39ed-449f-981e-f7867ff76648" name="Default" comment="" />
+      <created>1440178403516</created>
+      <option name="number" value="Default" />
+      <updated>1440178403516</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925596" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/jhelper-example-project.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060606062">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
