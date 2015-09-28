@@ -1,0 +1,8 @@
+#include <../../xyiyy/lib.hpp>
+
+class %ClassName% {
+public:
+	void solve(std::istream& in, std::ostream& out) {
+
+	}
+};

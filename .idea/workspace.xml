@@ -10,9 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ffcf51e-39ed-449f-981e-f7867ff76648" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACM/.idea/.name" afterPath="$PROJECT_DIR$/ACM/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACM/tasks/ACM/模版/fraud/sa_dc3.cpp" afterPath="$PROJECT_DIR$/ACM/tasks/ACM/模版/fraud/sa_dc3.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.task" />
+      <change type="DELETED" beforePath="G:\icpc\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="G:\icpc\tasks\a.task" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/a.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task.template" afterPath="$PROJECT_DIR$/task.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ACM/task.template" afterPath="$PROJECT_DIR$/ACM/task.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="icpc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +38,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.060606062">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poj2079.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/geo/P.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2049lct_splay.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/bzoj/problem_set/2049lct_splay.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/lib.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.template" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ACM/run.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27906978">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submission.template" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACM/submission.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.template" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ACM/task.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.template" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -52,7 +137,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ACM/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ACM/.idea/.name" />
+        <option value="$PROJECT_DIR$/task.template" />
+        <option value="$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.cpp" />
       </list>
     </option>
   </component>
@@ -124,6 +212,132 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyiyy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xyiyy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ACM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bzoj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="problem_set" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -134,193 +348,27 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/JHelper.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/jhelper-example-project.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/TaskA.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/TaskB.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/TaskC.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/output/main.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/geo/P.hpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/杂/SHU 平衡二叉树/D_again.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/testrunner/main.cpp</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/Chef_and_Graph_Queries.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/poj3168.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/poj3293.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1948.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1950.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1951.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/.idea/runConfigurations/shuoj1952.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2482.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2482.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3168.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3168.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3293.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj3293.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/codechef/Chef_and_Graph_Queries.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/codechef/Chef_and_Graph_Queries.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1001.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1002.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1003.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1003spj .cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1004.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1005.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1006.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1007.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1008.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1009.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1010.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/10/标程10/标程/1011.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskA.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskA.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskB.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskB.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskC.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hihocoder/hihoCoder挑战赛14/TaskC.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1113.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1113.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1912.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/poj/problem set/poj1912.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1948.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1948.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1950.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1950.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1951.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1951.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1952.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1952.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1954.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1954.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1955.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1955.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1957.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/shuoj1957.task</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/training/2015buaa_summer_training/practice1/test/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/training/2015buaa_summer_training/practice1/test/.gitignore</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/hdu/2015多校/8/标程8/标程/1009_spj.cpp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1869.c</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1876.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1876.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1880.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1880.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1938.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ACM/tasks/ACM/shuoj/problem set/1938.out</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\icpc\ACM" />
+    </key>
   </component>
-  <component name="RunManager" selected="Task.a">
-    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="tasks/.task">
+  <component name="RunManager" selected="Task.poj2079">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="ACM/tasks/ACM/TiaoZhan/3.6/.task">
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Task.a" />
+      <item index="1" class="java.lang.String" itemvalue="Task.poj2079" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -334,14 +382,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925596" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14334472" sideWeight="0.49107143" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5089286" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -375,6 +423,150 @@
     <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/geo/P.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/bzoj/problem_set/2049lct_splay.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/lib.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/run.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/submission.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/geo/P.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/lib.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/run.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/submission.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -393,6 +585,62 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.186813">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/jhelper-example-project.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72527474">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/JHelper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/.idea/dictionaries/xyfra_000.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06043956">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -403,14 +651,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACM/task.template">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ACM/.idea/jhelper-example-project.iml">
+    <entry file="file://$PROJECT_DIR$/task.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/task.template">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -418,10 +674,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/lib.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/xyiyy/geo/P.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/bzoj/problem_set/2049lct_splay.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/tasks/ACM/TiaoZhan/3.6/poj2079.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ACM/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060606062">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/submission.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ACM/run.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27906978">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
