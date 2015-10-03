@@ -37,13 +37,26 @@ typedef long long ll;
 typedef pair<int,int> PII;
 typedef vector<PII> VII;
 typedef vector<int> VI;
-
+const int MAXN = 100010;
+int a[MAXN];
+int bit[MAXN];
+int lx[MAXN];
+int rx[MAXN];
 int main()
 {
-	ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false);
+    #ifdef LOCAL
+        freopen("in.txt","r",stdin);
+    #endif // LOCAL
+    int n;
+    while(scanf("%d",&n)!=EOF){
+        rep(i,n)scanf("%d",&a[i]);
+        rep(i,n)bit[i] = 0;
+        rep(i,n){
 
-	return 0;
+        }
+
+
+    }
+    return 0;
 }
-
-
-
