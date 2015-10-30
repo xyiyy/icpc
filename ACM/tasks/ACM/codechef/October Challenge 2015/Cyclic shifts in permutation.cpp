@@ -167,7 +167,7 @@ int main() {
         int tmp[10];
         rep2(i,1,n)add(i,1);
         //rep()
-        cout << "ok" << endl;
+        //cout << "ok" << endl;
         rep(i,num) {
             //cout << i << endl;
             //cout << "ok" << i << endl;
