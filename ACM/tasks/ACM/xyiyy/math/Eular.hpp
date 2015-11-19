@@ -9,7 +9,7 @@ const  int MAXN = 1000010;
 int vis[MAXN],prime[MAXN],n_prime,phi[MAXN];
 void Eular(){
     n_prime = 0;
-    phi[i] = 1;
+    phi[1] = 1;
     for(int i=2;i<MAXN;i++){
         if(!vis[i]){
             prime[n_prime++] = i;
