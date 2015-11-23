@@ -5,7 +5,10 @@
 #ifndef ICPC_CRT_HPP
 #define ICPC_CRT_HPP
 
-#include "inv.hpp"
+void extgcd(ll a,ll b,ll &d,ll &x,ll &y){
+    if(!b){d = a;x=1;y=0;}
+    else {extgcd(b,a%b,d,y,x);y-=x*(a/b);}
+}
 
 ll CRT(int n,ll *a,ll *m){
     ll M = 1, d, y, x = 0;
