@@ -1,4 +1,4 @@
-#include <../../xyiyy/lib.hpp>
+#include "../../../xyiyylib/lib.hpp"
 
 class %ClassName% {
 public:
