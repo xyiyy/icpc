@@ -1,0 +1,20 @@
+14 Plane_Division
+14 Plane_Division
+56 src/codechef/December Challenge 2015/Plane_Division.task
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6 SINGLE
+1
+0
+38 1
+5
+1 0 0
+1 2 3
+3 4 5
+30 40 0
+30 40 50
+2 2
+
+1

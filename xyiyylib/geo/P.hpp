@@ -66,7 +66,7 @@ public:
         return dot(*this);
     }
 
-    //绕原点旋转角度B（弧度值）产生新的点
+    //???????????B?????????????????
     P rot(double rad) {
         return P(add(x * cos(rad), -y * sin(rad)), add(x * sin(rad), y * cos(rad)));
     }
@@ -88,17 +88,17 @@ public:
 };
 
 
-//判断点是否在线段上
+//?卸????????????
 bool on_seg(P p1, P p2, P q) {
     return (p1 - q).det(p2 - q) == 0 && (p1 - q).dot(p2 - q) <= 0;
 }
 
-//求两条线段的交点
+//????????蔚????
 P intersection(P p1, P p2, P q1, P q2) {
     return p1 + (p2 - p1) * ((q2 - q1).det(q1 - p1) / (q2 - q1).det(p2 - p1));
 }
 
-//线段相交判定
+//??????卸?
 bool crsSS(P p1, P p2, P q1, P q2) {
     if (max(p1.x, p2.x) + EPS < min(q1.x, q2.x))return false;
     if (max(q1.x, q2.x) + EPS < min(p1.x, p2.x))return false;
@@ -115,65 +115,65 @@ bool crsSS(P p1, P p2, P q1, P q2) {
            && (q2 - q1).det(p1 - q1) * (q2 - q1).det(p2 - q1) <= 0;
 }
 
-//直线和线段相交判断
+//??????????卸?
 bool crsLS(P l1, P l2, P s1, P s2) {
     return (s1 - l2).det(l1 - l2) * (s2 - l2).det(l1 - l2) <= 0;
 }
 
-//直线相交判断
-//返回-1表示重合，0表示平行，1表示相交
+//??????卸?
+//????-1???????0?????校?1?????
 int crsLL(P p1, P p2, P q1, P q2) {
     if (sig((p1 - p2).det(q1 - q2)) != 0)return 1;
     if (sig((p1 - q2).det(q1 - p2)) != 0)return 0;
     return -1;
 }
 
-//直线和直线的交点
+//???????????
 /*P isLL(P p1,P p2,P q1,P q2){
     double d = (q2 - q1).det(p2 - p1);
     if(sig(d)==0)return NULL;
     return intersection(p1,p2,q1,q2);
 }*/
 
-//点到直线的垂足
+//?????????
 P proj(P p1, P p2, P q) {
     return p1 + ((p2 - p1) * ((p2 - p1).dot(q - p1) / (p2 - p1).abs2()));
 }
 
-//直线到点的距离
+//??????????
 double disLP(P p1, P p2, P q) {
     return fabs((p2 - p1).det(q - p1)) / (p2 - p1).abs();
 }
 
 
-//线段到点的距离
+//??蔚???????
 double disSP(P p1, P p2, P q) {
     if ((p2 - p1).dot(q - p1) <= 0)return (q - p1).abs();
     if ((p1 - p2).dot(q - p2) <= 0)return (q - p2).abs();
     return disLP(p1, p2, q);
 }
 
-//圆和线段相交的判定
+//???????????卸?
 bool crsCS(P c, double r, P p1, P p2) {
     return disSP(p1, p2, c) < r + EPS && (r < (c - p1).abs() + EPS || r < (c - p2).abs() + EPS);
 }
 
-//圆与圆相交的判定
+//?????????卸?
 bool crsCC(P c1, double r1, P c2, double r2) {
     double dis = (c1 - c2).abs();
     return dis < r1 + r2 + EPS && fabs(r1 - r2) < dis + EPS;
 }
 
-//四点共圆判定
+//?????卸?
 /*bool onC(P p1,P p2,P p3,P p4){
     P c = CCenter(p1,p2,p3);
     if(c == NULL) return false;
     return add((c - p1).abs2(), -(c - p4).abs2()) == 0;
 }*/
 
-//三点共圆的圆心
+//??????????
 /*P CCenter(P p1,P p2,P p3){
-    //if(disLP(p1, p2, p3) < EPS)return NULL;//三点共线
+    //if(disLP(p1, p2, p3) < EPS)return NULL;//??????
     P q1 = (p1 + p2) * 0.5;
     P q2 = q1 + ((p1 - p2).rot90());
     P s1 = (p3 + p2) * 0.5;
@@ -181,7 +181,7 @@ bool crsCC(P c1, double r1, P c2, double r2) {
     return isLL(q1,q2,s1,s2);
 }*/
 
-//求两圆的极角 以p为中心
+//?????????? ??p?????
 double polarangle(P p, P q) {
     return atan2(q.y - p.y, q.x - p.x);
 }
@@ -207,7 +207,7 @@ void convex_hull(P *ps, int n) {
     qs.resize(k - 1);
 }
 
-//求凸包的直径
+//??????????
 double convexDiameter() {
     int qsz = qs.size();
     if (qsz == 1)return 0;

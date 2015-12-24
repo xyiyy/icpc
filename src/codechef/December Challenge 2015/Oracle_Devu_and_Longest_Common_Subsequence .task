@@ -1,0 +1,26 @@
+43 Oracle_Devu_and_Longest_Common_Subsequence 
+43 Oracle_Devu_and_Longest_Common_Subsequence 
+85 src/codechef/December Challenge 2015/Oracle_Devu_and_Longest_Common_Subsequence .task
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6 SINGLE
+1
+0
+34 3
+2
+ab
+ba
+2
+aa
+bb
+3
+aabb
+abab
+baab
+6 1
+0
+2
+
+1

@@ -1,4 +1,4 @@
-#include "G:/icpc/tasks/taska.cpp"
+#include "G:/icpc/src/codechef/December Challenge 2015/Chef_and_cinema.cpp"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -27,7 +27,7 @@ bool check(std::string expected, std::string actual) {
 
 int main() {
 	std::vector<jhelper::Test> tests = {
-
+		{"2\n2 2 3 2 1 1\n3 3 1 2 0 9\n", "4\n8\n", true},
 	};
 	bool allOK = true;
 	int testID = 0;
@@ -41,7 +41,7 @@ int main() {
 			std::stringstream in(test.input);
 			std::ostringstream out;
 			std::clock_t start = std::clock();
-			taska solver;
+			Chef_and_cinema solver;
 			solver.solve(in, out);
 			std::clock_t finish = std::clock();
 			double currentTime = double(finish - start) / CLOCKS_PER_SEC;

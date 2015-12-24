@@ -1,5 +1,5 @@
-del G:\icpc\ACM\tasks\ACM\*.exe /s
-del G:\icpc\ACM\tasks\ACM\*.o /s
-del G:\icpc\ACM\tasks\ACM\*.in /s
-del G:\icpc\ACM\tasks\ACM\*.out /s
+del G:\icpc\src\*.exe /s
+del G:\icpc\src\*.o /s
+del G:\icpc\src\*.in /s
+del G:\icpc\src\*.out /s
 
