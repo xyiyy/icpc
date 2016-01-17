@@ -14,35 +14,7 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="289f7a3f-880e-4907-a6c7-80fab1201262" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Filters.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Filters.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Chef_and_Filters.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Girls.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Girls.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Chef_and_Girls.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_cinema.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_cinema.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Chef_and_cinema.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Oracle_Devu_and_Longest_Common_Subsequence .cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Oracle_Devu_and_Longest_Common_Subsequence .task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Oracle_Devu_and_Longest_Common_Subsequence_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Plane_Division.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Plane_Division.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Plane_Division.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="DELETED" beforePath="G:\icpc\src\codechef\December Challenge 2015\check.cpp" afterPath="" />
-      <change type="DELETED" beforePath="G:\icpc\src\codechef\December Challenge 2015\check.task" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_the_stones.cpp" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_the_stones.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_the_stones.task" afterPath="$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_the_stones.task" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xyiyylib/geo/P.hpp" afterPath="$PROJECT_DIR$/xyiyylib/geo/P.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/main.cpp" afterPath="$PROJECT_DIR$/output/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testrunner/main.cpp" afterPath="$PROJECT_DIR$/testrunner/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submission.template" afterPath="$PROJECT_DIR$/submission.template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="289f7a3f-880e-4907-a6c7-80fab1201262" name="Default" comment="" />
     <ignored path="icpc.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +47,7 @@
       <file leaf-file-name="Chef_and_Girls.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Girls.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2549575">
+            <state vertical-scroll-proportion="0.7790368">
               <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
@@ -229,7 +201,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="src/codechef/December Challenge 2015/.task">
+    <configuration default="true" type="name.admitriev.jhelper.configuration.TaskConfigurationType" factoryName="Task" task_path="src/TopCoder/SRM575div2/.task">
       <method />
     </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -280,11 +252,11 @@
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16591252" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16591252" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32627866" sideWeight="0.48190045" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5331825" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -318,6 +290,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_cinema.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Girls.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_cinema.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -576,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codechef/December Challenge 2015/Chef_and_Girls.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2549575">
+        <state vertical-scroll-proportion="0.7790368">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
