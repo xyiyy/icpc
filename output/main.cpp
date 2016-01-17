@@ -31,120 +31,143 @@
 #include <cctype>
 
 using namespace std;
+#define XINF INT_MAX
 #define INF 0x3FFFFFFF
+#define mp(X, Y) make_pair(X,Y)
+#define pb(X) push_back(X)
+#define rep(X, N) for(int X=0;X<N;X++)
+#define rep2(X, L, R) for(int X=L;X<=R;X++)
+#define dep(X, R, L) for(int X=R;X>=L;X--)
+#define clr(A, X) memset(A,X,sizeof(A))
+#define IT iterator
+#define ALL(X) (X).begin(),(X).end()
+#define PQ std::priority_queue
 typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<int, int> PII;
+typedef vector<PII> VII;
+typedef vector<int> VI;
 
-class Chef_and_cinema {
+int getTheAnswer() {
+    return 42;
+}
+
+const int MAXN = 300010;
+int pre[MAXN], ch[MAXN][2], rev[MAXN];
+int key[MAXN];
+
+void push_down(int r) {
+    if (!r)return;
+    if (rev[r]) {
+        rev[ch[r][0]] ^= 1;
+        rev[ch[r][1]] ^= 1;
+        swap(ch[r][0], ch[r][1]);
+        rev[r] ^= 1;
+    }
+}
+
+void push_up(int x) {
+    //update the information
+    /*int l = ch[x][0],r = ch[x][1];
+    mx[x] = x;
+    if(key[mx[l]]<key[mx[x]])mx[x] = mx[l];
+    if(key[mx[r]]<key[mx[x]])mx[x] = mx[r];*/
+}
+
+void rotate(int x, int d) {
+    const int y = pre[x];
+    ch[y][!d] = ch[x][d];
+    if (ch[x][d])pre[ch[x][d]] = y;
+    pre[x] = pre[y];
+    if (ch[pre[y]][0] == y)ch[pre[x]][0] = x;
+    else if (ch[pre[y]][1] == y)ch[pre[x]][1] = x;
+    pre[y] = x;
+    ch[x][d] = y;
+    push_up(y);
+}
+
+bool _splay_parent(int x, int &y) {
+    return (y = pre[x]) != 0 && (ch[y][0] == x || ch[y][1] == x);
+}
+
+void splay(int x, int goal) {
+    push_down(x);
+    for (int y, z; _splay_parent(x, y);) {
+        if (_splay_parent(y, z)) {
+            push_down(z);
+            push_down(y);
+            push_down(x);
+            int d = y == ch[z][0];
+            if (x == ch[y][d])rotate(x, d ^ 1), rotate(x, d);
+            else rotate(y, d), rotate(x, d);
+        } else {
+            push_down(y), push_down(x);
+            rotate(x, x == ch[y][0]);
+            break;
+        }
+    }
+    push_up(x);
+}
+
+int access(int u) {
+    int v = 0;
+    for (; u; u = pre[u]) {
+        splay(u, 0);
+        ch[u][1] = v;
+        push_up(v = u);
+    }
+    return v;
+}
+
+void makeroot(int x) {
+    rev[access(x)] ^= 1;
+    splay(x, 0);
+}
+
+void link(int x, int y) {
+    makeroot(x);
+    pre[x] = y;
+}
+
+void cut(int x, int y) {
+    makeroot(x);
+    access(y);
+    splay(y, 0);
+    pre[ch[y][0]] = 0;
+    ch[y][0] = 0;
+    push_up(y);
+}
+
+void Init(int n) {
+    for (int i = 0; i < n; i++) {
+        pre[i] = ch[i][0] = ch[i][1] = 0;
+        //and other thing
+    }
+}
+
+void debug(int x) {
+
+}
+
+int query(int x, int y) {
+    makeroot(x);
+    access(y);
+    splay(y, 0);
+    //return mx[y];
+    //then return what you want
+}
+
+class A {
 public:
     void solve(std::istream &in, std::ostream &out) {
-        int t;
-        in >> t;
-        while (t--) {
-            ll n, m, z, l, r, b;
-            ll ans = 0;
-            in >> n >> m >> z >> l >> r >> b;
-            ans = n * m;
-            ll s = l + r;
-            ll line_m = m - (m % 2 == 0);
-            ll tb = (line_m + 1) / 2;
-            ll tz = (line_m) / 2;
-            ll ts = m - line_m;
-            ll mb = INF;
-            if (tb) mb = b / tb;
-            ll mz = INF;
-            if (tz) mz = z / tz;
-            ll ms = INF;
-            if (ts) ms = s / ts;
-            ll sum = 0;
-            if (mb <= ms && mb <= mz) {
-                if (mb < n) {
-                    ans = min(z + s + b, ans);
-                } else {
-                    ans = n * m;
-                }
-            } else if (ms <= mb && ms <= mz) {
-                if (ms < n) {
-                    sum = ms * m;
-                    ll leftz = z - ms * tz;
-                    ll leftb = b - ms * tb;
-                    tz = m / 2;
-                    mb = leftb / tb;
-                    mz = leftz / tz;
-                    if (mb < mz) {
-                        ans = min(s + z + b, ans);
-                    } else {
-                        if (ms + mz < n) {
-                            sum += mz * m;
-                            leftz -= mz * tz;
-                            leftb -= mb * tb;
-                            mb = leftb / tb;
-                            ans = sum + leftz + ((mb > n - ms - mz) ? (n - ms - mz) * tb : (mb * tb));
-                        } else;
 
-                    }
-                } else { ;
-                }
-            } else {
-                if (mz < n) {
-                    ll leftz = z - mz * tz;
-                    ll leftb = b - mz * tb;
-                    ll lefts = s - mz * ts;
-                    ll leftn = n - mz;
-                    ll leftm = m - (leftz * 2 + 1);
-                    leftb -= leftz + 1;
-                    sum = m * mz;
-                    if (lefts > leftm) {
-                        sum += m;
-                        lefts -= leftm;
-                        leftn--;
-                        tb = 1;
-                        ts = m - 1;
-                        mb = leftb / tb;
-                        ms = lefts / ts;
-                        if (ms < mb) {
-                            lefts = lefts - ms * ts;
-                            leftb = leftb - ms * tb;
-                            sum += ms * m;
-                            if (sum > ans) {
-                                ans = n * m;
-                            } else {
-                                leftm = m - 1;
-                                leftm = leftm - lefts - 1;
-                                leftb -= (leftm + 1) / 2;
-                                sum += 1;
-                                sum += (leftm + 1) / 2;
-                                sum += lefts;
-                                tb = (m + 1) / 2;
-                                leftn--;
-                                mb = leftb / tb;
-                                ans = min(ans, sum + min(leftn, mb) * tb);
-                            }
-                        } else {
-                            ans = min(ans, s + z + b);
-                        }
-                    } else {
-                        leftm = leftm - lefts - 1;
-                        sum += leftz * 2 + 1;
-                        sum += lefts;
-                        leftb -= (leftm + 1) / 2;
-                        sum += (leftm + 1) / 2;
-                        tb = (m + 1) / 2;
-                        leftn--;
-                        mb = leftb / tb;
-                        ans = min(ans, sum + min(leftn, mb) * tb);
-                    }
-                } else { ;
-                }
-            }
-            out << ans << endl;
-        }
 
     }
 };
 
 
 int main() {
-    Chef_and_cinema solver;
+    A solver;
     std::istream &in(std::cin);
     std::ostream &out(std::cout);
     solver.solve(in, out);
