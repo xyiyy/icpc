@@ -81,7 +81,7 @@ void tarjan(int u){
     for(int i = qhead[u];i!=-1;i = qedge[i].Next){
         int v = qedge[i].to;
         if(vis[v]){
-            qedge[i].lca = find(qedge[i].to);
+            qedge[i].lca = find(v);
             res[i] = d[u] + d[v] - 2 * d[qedge[i].lca];
             //cout << u << " " << v << " " << d[qedge[i].lca] << endl;
         }
