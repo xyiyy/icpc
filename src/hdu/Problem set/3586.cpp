@@ -63,10 +63,7 @@ int main()
             else l = mid + 1;
         }
         cout << ans << endl;
-
     }
-
-
     return 0;
 }
 

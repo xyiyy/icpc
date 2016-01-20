@@ -57,7 +57,6 @@ int main()
     while(t--){
         int n,m;
         scanf("%d%d",&n,&m);
-        //rep(i,m+1)T[i].init(n);
         rep(i,n)scanf("%d",&a[i]);
         rep(i,n)b[i] = a[i];
         sort(b,b+n);
@@ -79,7 +78,6 @@ int main()
         int ans = T[m].sum(sz);
         cout << "Case #"<< cas++ << ": " << ans << endl;
     }
-
     return 0;
 }
 
