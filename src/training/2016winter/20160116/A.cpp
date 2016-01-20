@@ -90,6 +90,7 @@ ll res[MAXN];
 int fa[MAXN];
 int pa[MAXN];
 ll dise[MAXN];
+bool used[MAXN];
 
 int tot1, tot2;
 void addedge1(int u,int v){
@@ -135,7 +136,6 @@ void tarjan(int u,int f){
             if(qedge[i].type == 2){
                 int lca = qedge[i].lca;
                 int w = qedge[i].w;
-                if(lca>1)
                 dise[lca] -= w * 2;
                 dise[u] += w;
                 dise[v] += w;
@@ -143,7 +143,8 @@ void tarjan(int u,int f){
                 int lca = qedge[i].lca;
                 int w = qedge[i].w;
                 d[lca] -= w;
-                if(fa[lca])d[fa[lca]] -= w;
+                //if(fa[lca])
+                d[fa[lca]] -= w;
                 d[u] += w;
                 d[v] += w;
             }
@@ -156,7 +157,6 @@ void dfs(int u,int f){
         if(v == f)continue;
         dfs(v,u);
         d[u] += d[v];
-        //dise[u] += dise[v];
         dise[u] += dise[v];
         res[i/2] = dise[v];
     }
@@ -167,22 +167,17 @@ int main(){
     int t;
     int cas =1;
     Scan(t);
-    //scanf("%d",&t);
     while(t--){
         int n,m;
         Scan(n);
         Scan(m);
-        //rep(i,n+1)vis[i] = 0;
-        clr(vis,0);
-        //rep(i,n+1)head[i] = -1;
+        /*clr(vis,0);
         clr(head,-1);
         clr(qhead,-1);
-        //rep(i,n+1)qhead[i] = -1;
-        //rep(i,n+1)d[i] = 0;
-        //rep(i,n+1)dise[i] = 0;
         clr(d,0);
-        //clr(res,0);
-        clr(dise,0);
+        clr(dise,0);*/
+        rep(i,n+1)vis[i] = d[i] = dise[i] = used[i] = 0;
+        rep(i,n+1)head[i] = qhead[i] = -1;
         tot1 = tot2 = 0;
         int l,r,inc;
         rep(i,n-1){
@@ -190,13 +185,14 @@ int main(){
             Scan(r);
             addedge1(l,r);
         }
+        addedge1(1,0);
+        addedge1(0,0);
         rep(i,m){
             char c = getchar();
             while(c!='1'&& c!='2')c = getchar();
             Scan(l);
             Scan(r);
             Scan(inc);
-            //scanf("%s%d%d%d",a,&l,&r,&inc);
             if(c=='1'){
                 qedge[tot2].w = inc;
                 qedge[tot2].type = 1;
@@ -208,8 +204,8 @@ int main(){
                 addedge2(l,r);
             }
         }
-        tarjan(1,0);
-        dfs(1,0);
+        tarjan(0,-1);
+        dfs(0,-1);
         printf("Case #%d:\n",cas++);
 
         rep(i,n){
@@ -223,4 +219,5 @@ int main(){
         }
         puts("");
     }
+    return 0;
 }
