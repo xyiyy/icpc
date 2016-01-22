@@ -1,6 +1,6 @@
-del D:\xyiyy\icpc\src\*.exe /s
-del D:\xyiyy\icpc\src\*.o /s
-del D:\xyiyy\icpc\src\*.in /s
-del D:\xyiyy\icpc\src\*.out /s
+del D:\xyiyy\icpc\*.exe /s
+del D:\xyiyy\icpc\*.o /s
+del D:\xyiyy\icpc\*.in /s
+del D:\xyiyy\icpc\*.out /s
 pause
 

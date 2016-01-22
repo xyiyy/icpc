@@ -1,6 +1,6 @@
-del G:\icpc\src\*.exe /s
-del G:\icpc\src\*.o /s
-del G:\icpc\src\*.in /s
-del G:\icpc\src\*.out /s
+del G:\icpc\*.exe /s
+del G:\icpc\*.o /s
+del G:\icpc\*.in /s
+del G:\icpc\*.out /s
 pause
 
